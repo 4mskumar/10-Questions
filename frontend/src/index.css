@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.inter {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .dm {
+    font-family: 'DM Serif Text', serif;
+    font-style: italic;
+  }
+  
+  .playfair {
+    font-family: 'Playfair Display', serif;
+  }
+  
